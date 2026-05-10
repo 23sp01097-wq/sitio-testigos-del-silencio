@@ -1,0 +1,258 @@
+/*
+background-color:#333333 gris fondo;
+background-color:#4a4a4a gris titulos;
+background-color:#c4c4c4 gris texto;
+background-color:#404f68 azul menu;
+background-color:#6c27da;
+*/
+
+.cabeza{
+	height: 5vw;
+	border: solid black 2px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#f5f0e6;
+}
+
+.menu{
+	position: sticky;
+	top: 0vw;
+	display: flex;
+	height: 6vw;
+	align-items: center;
+	justify-content: center;
+	z-index: 5;
+	background-color:#404f68;
+}
+
+.etiquetas{
+	width: 70%;
+	height: 4vw;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	
+
+}
+
+.etiquetas ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.color{
+	color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.color:hover{
+    color: #808847;
+}
+
+.opcion1{
+	height: 4vw;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:  clamp(0.9rem, 1.2vw, 1.2rem);
+}
+
+
+
+
+.sec1{
+	position: relative;
+	height: 35vw;
+	display: flex;
+	justify-content: center;
+	background-color:#333333;
+}
+
+.contenedor1{
+	position: relative;
+	background-color:white;
+	height: 30vw;
+	margin-top: 3%;
+	width: 100%;
+	border: solid black 2px;
+
+}
+
+.foto1{
+	position: absolute;
+	height: 100%;
+	width: 50%;
+	left: 50%;
+
+	background-image: url("");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.foto1::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+
+.subtitulo1{
+	position: absolute;
+	width: 40%;
+	height: 15%;
+	left: 5%;
+	top: 10%;
+	
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+}
+
+.subtexto1{
+	position: absolute;
+	width: 40%;
+	height: 50%;
+	left: 5%;
+	top: 30%;
+	
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+}
+
+.sec2{
+	position: relative;
+	height: 35vw;
+	display: flex;
+	justify-content: center;
+	background-color:#333333;
+
+}
+
+.contenedor2{
+	position: relative;
+	height: 30vw;
+	margin-top: 3%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:white;
+}
+
+
+
+
+.subtitulo2{
+	position: absolute;
+	width: 70%;
+	height: 15%;
+	display: flex;
+	justify-content: center;
+	top: 10%;
+	
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+}
+
+.subtexto2{
+	position: absolute;
+	width: 70%;
+	height: 50%;
+
+	top: 30%;
+	
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+}
+
+.sec3{
+	position: relative;
+	height: 40vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	
+	background-image: url("https://cadenaser.com/resizer/v2/ZZTITYHFCBKUPBTPFJDKKVC6WQ.jpg?auth=76e7673f50a4406ccb5c26a65d17311b36a995fbdffe33d3eaf3df313c135c2d");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.sec3::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.subtitulo3{
+	width: 40%;
+	height: 5vw;
+
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 3;
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+}
+
+
+
+.subtexto3{
+	width: 40%;
+	height: 15vw;
+
+	color: white;
+	display: flex;
+	flex-flow: column;
+	z-index: 3;
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+}
+
+
+
+
+
+
+
+body {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+

@@ -1,0 +1,481 @@
+/*
+background-color:#333333; gris fondo;
+background-color:#4a4a4a; gris titulos;
+background-color:#c4c4c4; gris texto;
+background-color:#404f68; azul menu;
+background-color:#6c27da;
+*/
+
+.cabeza{
+	position: relative;
+	height: 5vw;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color:#c4c4c4;
+}
+
+.menu{
+	position: sticky;
+	top: 0vw;
+	display: flex;
+	height: 6vw;
+	align-items: center;
+	justify-content: center;
+	z-index: 5;
+	background-color:#404f68;
+}
+
+.etiquetas{
+	width: 70%;
+	height: 4vw;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	flex-flow: row wrap;
+	
+
+}
+
+.etiquetas ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.color{
+	color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.color:hover{
+    color: #808847;
+}
+
+.opcion1{
+	height: 4vw;
+	width: 20%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size:  clamp(0.9rem, 1.2vw, 1.2rem);
+}
+
+
+
+
+.sec1{
+	position: relative;
+	height: 22vw;
+	display: flex;
+	justify-content: center;
+	background-color:#333333;
+}
+
+.contenedor1{
+	position: relative;
+	background-color:white;
+	height: 20vw;
+	margin-top: 3%;
+	width: 90%;
+
+}
+
+.foto1{
+	position: absolute;
+	height: 95%;
+	width: 50%;
+	left: 50%;
+
+	background-image: url("");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.foto1::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+.foto0::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+
+.subtitulo1{
+	position: absolute;
+	width: 40%;
+	height: 15%;
+	left: 5%;
+	top: 10%;
+	
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+}
+
+.subtexto1{
+	position: absolute;
+	width: 40%;
+	height: 50%;
+	left: 5%;
+	top: 35%;
+	
+	font-size: clamp(1vw, 1vw, 1.1vw);
+}
+
+.sec2{
+	position: relative;
+	height: 25vw;
+	display: flex;
+	justify-content: center;
+	background-color:#333333;
+
+}
+
+.contenedor2{
+	position: relative;
+	height: 20vw;
+	margin-top: 3%;
+	width: 90%;
+	background-color:white;
+}
+
+.foto2{
+	position: absolute;
+	
+	height: 100%;
+	width: 50%;
+	left: 0%;
+
+	background-image: url("");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.foto2::before{
+	content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.4);
+    z-index: 1;
+}
+
+
+
+.subtitulo2{
+	position: absolute;
+	width: 40%;
+	height: 15%;
+	left: 55%;
+	top: 10%;
+	
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+}
+
+.subtexto2{
+	position: absolute;
+	width: 40%;
+	height: 50%;
+	left: 55%;
+	top: 35%;
+	
+	font-size: clamp(1vw, 1vw, 1.1vw);
+}
+
+.sec3{
+	position: relative;
+	height: 90%;
+	width: 55%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+	
+	background-image: url("https://i.ibb.co/NnJ8B08R/M6-C-Ibarra-Diaz-Cristian-Jair-poster.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+
+
+.section3{
+	height: 40vw;
+	display: flex;
+	flex-flow: row;
+	background-color: grey;
+	
+	background-color:#333333;
+
+}
+
+.conte3{
+	height: 40vw;
+	width: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.conte31{
+	height: 40vw;
+	width: 50%;
+	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*
+.subtitulo3{
+	width: 40%;
+	height: 5vw;
+	
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	z-index: 3;
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+}
+*/
+
+
+.subtexto3{
+	width: 60%;
+	height: 80%;
+	
+	color: black;
+	background-color:white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	z-index: 3;
+	padding: 1vw;
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+}
+
+
+.sec4{
+	height:35vw;
+	position: relative;
+	display: flex;
+	
+	align-items: center;
+	flex-flow: row wrap;
+	justify-content: center;
+
+	background-color:#333333;
+}
+
+.contenedor4{
+	height: 25vw;
+	
+	width: 20%;
+	margin: 1vw;
+	display: flex;
+	align-items: center;
+	flex-flow: column;
+	justify-content: center;
+}
+
+.subtitulo4{
+	height: 10%;
+	width: 85%;
+	justify-content: center;
+	align-items: center;
+	padding: 1.3vw;
+	background-color:white;
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+	margin-bottom: 1vw;
+	margin-top: 1vw;
+}
+
+.subtexto4{
+
+	height: 70%;
+	width: 85%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 1.3vw;
+	background-color:white;
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+	margin-bottom: 1vw;
+}
+
+.infografia{
+	height: 85%;
+	width: 100%;
+}
+
+
+
+
+
+
+body {
+ 	margin: 0;
+ 	padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+img{
+	width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.h4{
+
+			width: 40vw;
+			height: 5vh;
+			
+			align-items: center;
+			margin: 0 auto;
+			margin-top: 1vh;
+         background-color:#c4c4c4;
+		}
+		
+		.cont2{
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction:row;
+
+        margin-top: 2vh;
+        height: 40vh;
+        
+        background-color:#c4c4c4;
+    }
+    .figure2{
+       margin-right: 15vw;
+        
+        width: 20%;
+        height: 60%;
+      background-color:white;
+    }
+    .img1{
+        width: 100%;
+        height: 100%;
+    }
+    .art2{
+		
+        align-content: center;
+        width: 55%;
+        height: 50%;
+        background-color: white;
+    }
+
+.elpa{
+	height: 112vw;
+	position: relative;
+	
+	background-color:#333333;
+}
+
+
+.sec0{
+	position: relative;
+	height: 35vw;
+	
+	background-color:#333333;
+}
+
+.foto0{
+	position: relative;
+	height: 20vw;
+	
+
+
+}
+
+.contenedor0{
+	height: 15vw;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-flow: column;
+	
+}
+
+
+
+.subtexto0{
+	height: 10vw;
+	width: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1vw;
+	
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+	background-color:white;
+}
+
+.cajaboton{
+	position: relative;
+	height: 5vw;
+	background-color: grey;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color:#333333;
+}
+
+.botonazo{
+	height: 3vw;
+	width: 30%;
+	
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: clamp(1vw, 1.2vw, 1.4vw);
+	background-color:grey;
+}
+
+.textote{
+	display: flex;
+	align-items: center;
+	padding: .5vw;
+	height: 13vw;
+	
+	width: 55%;
+	font-size: clamp(1vw, 1.2vw, 1.2vw);
+	background-color:white;
+}
